@@ -1,0 +1,25 @@
+<div class="container border" style="background-color: rgba(0, 0, 0, 0.609);">
+  <h2 class="text-center" style="color: white;">Update Record</h2>
+  <div class="row" style="color: white;">
+    <div class="col-2" >
+      Policy No. :<input type="text" class="form-control" #pNo [(ngModel)]="user.id">
+    </div>
+    <div class="col-2">
+      Holder Name:<input type="text" class="form-control" #pName [(ngModel)]="user.firstName">
+    </div>
+    <div class="col-2">
+      Amount:<input type="text" class="form-control" #pAmt [(ngModel)]="user.amount">
+    </div>
+    <div class="col-2">
+      EMI: <input type="text" class="form-control" #pEmi [(ngModel)]="user.emi">
+    </div>
+    <div class="col-2">
+      Nominee: <input type="text" class="form-control" #pNominee [(ngModel)]="user.nominee">
+    </div>
+    <div class="col-2">
+      <button class="btn btn-info mt-4" (click)="update()">Update
+        Record</button><br><br>
+    </div>
+  </div>
+</div>
+

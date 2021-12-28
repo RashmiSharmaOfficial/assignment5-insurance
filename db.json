@@ -1,0 +1,25 @@
+{
+  "insurance": [
+    {
+      "id": "103",
+      "firstName": "Aaron",
+      "amount": "89000",
+      "emi": "67",
+      "nominee": "Makenzie"
+    },
+    {
+      "id": "104",
+      "firstName": "Alexa",
+      "amount": "50000",
+      "emi": "45",
+      "nominee": "Naira"
+    },
+    {
+      "id": "101",
+      "firstName": "Sezal",
+      "amount": "9000",
+      "emi": "43",
+      "nominee": "Watson"
+    }
+  ]
+}

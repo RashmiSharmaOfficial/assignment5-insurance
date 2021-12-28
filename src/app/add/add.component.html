@@ -1,0 +1,27 @@
+<!-- <p>add works!</p> -->
+<div class="container" style="background-color: rgba(0, 0, 0, 0.609);">
+  <div class="row border" style="color: white;">
+    <h2 class="text-center">Add Record</h2>
+    <div class="col-2">
+      Policy No. :<input type="text" class="form-control" #pNo>
+    </div>
+    <div class="col-2">
+      Holder Name:<input type="text" class="form-control" #pName>
+    </div>
+    <div class="col-2">
+      Amount:<input type="text" class="form-control" #pAmt>
+    </div>
+    <div class="col-2">
+      EMI: <input type="text" class="form-control" #pEmi>
+    </div>
+    <div class="col-2">
+      Nominee: <input type="text" class="form-control" #pNominee>
+    </div>
+    <div class="col-2">
+      <button class="btn btn-info mt-4"
+        (click)="insertRecord(pNo.value, pName.value, pAmt.value, pEmi.value, pNominee.value)">Insert
+        Record</button><br><br>
+    </div>
+  </div>
+</div>
+
